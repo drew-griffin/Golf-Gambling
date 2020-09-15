@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA260C02510409B007FE0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260BF2510409B007FE0EB /* AppDelegate.swift */; };
+		6CA260C22510409B007FE0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260C12510409B007FE0EB /* SceneDelegate.swift */; };
+		6CA260C42510409B007FE0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260C32510409B007FE0EB /* ViewController.swift */; };
+		6CA260C72510409B007FE0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA260C52510409B007FE0EB /* Main.storyboard */; };
+		6CA260C92510409F007FE0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA260C82510409F007FE0EB /* Assets.xcassets */; };
+		6CA260CC2510409F007FE0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA260CA2510409F007FE0EB /* LaunchScreen.storyboard */; };
+		6CA260D72510409F007FE0EB /* Golf_GamblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260D62510409F007FE0EB /* Golf_GamblingTests.swift */; };
+		6CA260E22510409F007FE0EB /* Golf_GamblingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260E12510409F007FE0EB /* Golf_GamblingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA260D32510409F007FE0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA260B42510409B007FE0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA260BB2510409B007FE0EB;
+			remoteInfo = "Golf Gambling";
+		};
+		6CA260DE2510409F007FE0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA260B42510409B007FE0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA260BB2510409B007FE0EB;
+			remoteInfo = "Golf Gambling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CA260BC2510409B007FE0EB /* Golf Gambling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Gambling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA260BF2510409B007FE0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA260C12510409B007FE0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CA260C32510409B007FE0EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CA260C62510409B007FE0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA260C82510409F007FE0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA260CB2510409F007FE0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CA260CD2510409F007FE0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA260D22510409F007FE0EB /* Golf GamblingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golf GamblingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA260D62510409F007FE0EB /* Golf_GamblingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_GamblingTests.swift; sourceTree = "<group>"; };
+		6CA260D82510409F007FE0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA260DD2510409F007FE0EB /* Golf GamblingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golf GamblingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA260E12510409F007FE0EB /* Golf_GamblingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_GamblingUITests.swift; sourceTree = "<group>"; };
+		6CA260E32510409F007FE0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA260B92510409B007FE0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260CF2510409F007FE0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260DA2510409F007FE0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA260B32510409B007FE0EB = {
+			isa = PBXGroup;
+			children = (
+				6CA260BE2510409B007FE0EB /* Golf Gambling */,
+				6CA260D52510409F007FE0EB /* Golf GamblingTests */,
+				6CA260E02510409F007FE0EB /* Golf GamblingUITests */,
+				6CA260BD2510409B007FE0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA260BD2510409B007FE0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA260BC2510409B007FE0EB /* Golf Gambling.app */,
+				6CA260D22510409F007FE0EB /* Golf GamblingTests.xctest */,
+				6CA260DD2510409F007FE0EB /* Golf GamblingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA260BE2510409B007FE0EB /* Golf Gambling */ = {
+			isa = PBXGroup;
+			children = (
+				6CA260BF2510409B007FE0EB /* AppDelegate.swift */,
+				6CA260C12510409B007FE0EB /* SceneDelegate.swift */,
+				6CA260C32510409B007FE0EB /* ViewController.swift */,
+				6CA260C52510409B007FE0EB /* Main.storyboard */,
+				6CA260C82510409F007FE0EB /* Assets.xcassets */,
+				6CA260CA2510409F007FE0EB /* LaunchScreen.storyboard */,
+				6CA260CD2510409F007FE0EB /* Info.plist */,
+			);
+			path = "Golf Gambling";
+			sourceTree = "<group>";
+		};
+		6CA260D52510409F007FE0EB /* Golf GamblingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA260D62510409F007FE0EB /* Golf_GamblingTests.swift */,
+				6CA260D82510409F007FE0EB /* Info.plist */,
+			);
+			path = "Golf GamblingTests";
+			sourceTree = "<group>";
+		};
+		6CA260E02510409F007FE0EB /* Golf GamblingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA260E12510409F007FE0EB /* Golf_GamblingUITests.swift */,
+				6CA260E32510409F007FE0EB /* Info.plist */,
+			);
+			path = "Golf GamblingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA260BB2510409B007FE0EB /* Golf Gambling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA260E6251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf Gambling" */;
+			buildPhases = (
+				6CA260B82510409B007FE0EB /* Sources */,
+				6CA260B92510409B007FE0EB /* Frameworks */,
+				6CA260BA2510409B007FE0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golf Gambling";
+			productName = "Golf Gambling";
+			productReference = 6CA260BC2510409B007FE0EB /* Golf Gambling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA260D12510409F007FE0EB /* Golf GamblingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA260E9251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf GamblingTests" */;
+			buildPhases = (
+				6CA260CE2510409F007FE0EB /* Sources */,
+				6CA260CF2510409F007FE0EB /* Frameworks */,
+				6CA260D02510409F007FE0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA260D42510409F007FE0EB /* PBXTargetDependency */,
+			);
+			name = "Golf GamblingTests";
+			productName = "Golf GamblingTests";
+			productReference = 6CA260D22510409F007FE0EB /* Golf GamblingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA260DC2510409F007FE0EB /* Golf GamblingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA260EC251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf GamblingUITests" */;
+			buildPhases = (
+				6CA260D92510409F007FE0EB /* Sources */,
+				6CA260DA2510409F007FE0EB /* Frameworks */,
+				6CA260DB2510409F007FE0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA260DF2510409F007FE0EB /* PBXTargetDependency */,
+			);
+			name = "Golf GamblingUITests";
+			productName = "Golf GamblingUITests";
+			productReference = 6CA260DD2510409F007FE0EB /* Golf GamblingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA260B42510409B007FE0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Drew Seidel";
+				TargetAttributes = {
+					6CA260BB2510409B007FE0EB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					6CA260D12510409F007FE0EB = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 6CA260BB2510409B007FE0EB;
+					};
+					6CA260DC2510409F007FE0EB = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 6CA260BB2510409B007FE0EB;
+					};
+				};
+			};
+			buildConfigurationList = 6CA260B72510409B007FE0EB /* Build configuration list for PBXProject "Golf Gambling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA260B32510409B007FE0EB;
+			productRefGroup = 6CA260BD2510409B007FE0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA260BB2510409B007FE0EB /* Golf Gambling */,
+				6CA260D12510409F007FE0EB /* Golf GamblingTests */,
+				6CA260DC2510409F007FE0EB /* Golf GamblingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA260BA2510409B007FE0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA260CC2510409F007FE0EB /* LaunchScreen.storyboard in Resources */,
+				6CA260C92510409F007FE0EB /* Assets.xcassets in Resources */,
+				6CA260C72510409B007FE0EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260D02510409F007FE0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260DB2510409F007FE0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA260B82510409B007FE0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA260C42510409B007FE0EB /* ViewController.swift in Sources */,
+				6CA260C02510409B007FE0EB /* AppDelegate.swift in Sources */,
+				6CA260C22510409B007FE0EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260CE2510409F007FE0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA260D72510409F007FE0EB /* Golf_GamblingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA260D92510409F007FE0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA260E22510409F007FE0EB /* Golf_GamblingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA260D42510409F007FE0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA260BB2510409B007FE0EB /* Golf Gambling */;
+			targetProxy = 6CA260D32510409F007FE0EB /* PBXContainerItemProxy */;
+		};
+		6CA260DF2510409F007FE0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA260BB2510409B007FE0EB /* Golf Gambling */;
+			targetProxy = 6CA260DE2510409F007FE0EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA260C52510409B007FE0EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA260C62510409B007FE0EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA260CA2510409F007FE0EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA260CB2510409F007FE0EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA260E4251040A0007FE0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA260E5251040A0007FE0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA260E7251040A0007FE0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf Gambling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-Gambling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA260E8251040A0007FE0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf Gambling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-Gambling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CA260EA251040A0007FE0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf GamblingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-GamblingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golf Gambling.app/Golf Gambling";
+			};
+			name = Debug;
+		};
+		6CA260EB251040A0007FE0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf GamblingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-GamblingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golf Gambling.app/Golf Gambling";
+			};
+			name = Release;
+		};
+		6CA260ED251040A0007FE0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf GamblingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-GamblingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golf Gambling";
+			};
+			name = Debug;
+		};
+		6CA260EE251040A0007FE0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
+				INFOPLIST_FILE = "Golf GamblingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-GamblingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golf Gambling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA260B72510409B007FE0EB /* Build configuration list for PBXProject "Golf Gambling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA260E4251040A0007FE0EB /* Debug */,
+				6CA260E5251040A0007FE0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA260E6251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf Gambling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA260E7251040A0007FE0EB /* Debug */,
+				6CA260E8251040A0007FE0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA260E9251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf GamblingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA260EA251040A0007FE0EB /* Debug */,
+				6CA260EB251040A0007FE0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA260EC251040A0007FE0EB /* Build configuration list for PBXNativeTarget "Golf GamblingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA260ED251040A0007FE0EB /* Debug */,
+				6CA260EE251040A0007FE0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA260B42510409B007FE0EB /* Project object */;
+}
