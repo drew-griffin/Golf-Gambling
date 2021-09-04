@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2A7EA22510965600FBE92B /* second_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2A7EA12510965600FBE92B /* second_ViewController.swift */; };
+		6C84313E2512D99B0001DFE3 /* fourth_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84313D2512D99B0001DFE3 /* fourth_ViewController.swift */; };
 		6CA260C02510409B007FE0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260BF2510409B007FE0EB /* AppDelegate.swift */; };
 		6CA260C22510409B007FE0EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260C12510409B007FE0EB /* SceneDelegate.swift */; };
 		6CA260C42510409B007FE0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260C32510409B007FE0EB /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		6CA260CC2510409F007FE0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA260CA2510409F007FE0EB /* LaunchScreen.storyboard */; };
 		6CA260D72510409F007FE0EB /* Golf_GamblingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260D62510409F007FE0EB /* Golf_GamblingTests.swift */; };
 		6CA260E22510409F007FE0EB /* Golf_GamblingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA260E12510409F007FE0EB /* Golf_GamblingUITests.swift */; };
+		6CAE6221251154070005B0E1 /* Gambling_Calculations.c in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE6220251154070005B0E1 /* Gambling_Calculations.c */; };
+		6CAE6223251196EE0005B0E1 /* third_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE6222251196EE0005B0E1 /* third_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2A7EA12510965600FBE92B /* second_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_ViewController.swift; sourceTree = "<group>"; };
+		6C84313D2512D99B0001DFE3 /* fourth_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourth_ViewController.swift; sourceTree = "<group>"; };
 		6CA260BC2510409B007FE0EB /* Golf Gambling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Gambling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA260BF2510409B007FE0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA260C12510409B007FE0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		6CA260DD2510409F007FE0EB /* Golf GamblingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golf GamblingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA260E12510409F007FE0EB /* Golf_GamblingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_GamblingUITests.swift; sourceTree = "<group>"; };
 		6CA260E32510409F007FE0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAE621E251154060005B0E1 /* Golf Gambling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Golf Gambling-Bridging-Header.h"; sourceTree = "<group>"; };
+		6CAE621F251154070005B0E1 /* Gambling_Calculations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gambling_Calculations.h; sourceTree = "<group>"; };
+		6CAE6220251154070005B0E1 /* Gambling_Calculations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Gambling_Calculations.c; sourceTree = "<group>"; };
+		6CAE6222251196EE0005B0E1 /* third_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = third_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,16 @@
 				6CA260BF2510409B007FE0EB /* AppDelegate.swift */,
 				6CA260C12510409B007FE0EB /* SceneDelegate.swift */,
 				6CA260C32510409B007FE0EB /* ViewController.swift */,
+				6C2A7EA12510965600FBE92B /* second_ViewController.swift */,
+				6CAE6222251196EE0005B0E1 /* third_ViewController.swift */,
+				6C84313D2512D99B0001DFE3 /* fourth_ViewController.swift */,
 				6CA260C52510409B007FE0EB /* Main.storyboard */,
 				6CA260C82510409F007FE0EB /* Assets.xcassets */,
 				6CA260CA2510409F007FE0EB /* LaunchScreen.storyboard */,
 				6CA260CD2510409F007FE0EB /* Info.plist */,
+				6CAE621F251154070005B0E1 /* Gambling_Calculations.h */,
+				6CAE6220251154070005B0E1 /* Gambling_Calculations.c */,
+				6CAE621E251154060005B0E1 /* Golf Gambling-Bridging-Header.h */,
 			);
 			path = "Golf Gambling";
 			sourceTree = "<group>";
@@ -191,11 +207,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Drew Seidel";
 				TargetAttributes = {
 					6CA260BB2510409B007FE0EB = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					6CA260D12510409F007FE0EB = {
 						CreatedOnToolsVersion = 11.7;
@@ -208,7 +225,7 @@
 				};
 			};
 			buildConfigurationList = 6CA260B72510409B007FE0EB /* Build configuration list for PBXProject "Golf Gambling" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C84313E2512D99B0001DFE3 /* fourth_ViewController.swift in Sources */,
+				6CAE6221251154070005B0E1 /* Gambling_Calculations.c in Sources */,
+				6C2A7EA22510965600FBE92B /* second_ViewController.swift in Sources */,
+				6CAE6223251196EE0005B0E1 /* third_ViewController.swift in Sources */,
 				6CA260C42510409B007FE0EB /* ViewController.swift in Sources */,
 				6CA260C02510409B007FE0EB /* AppDelegate.swift in Sources */,
 				6CA260C22510409B007FE0EB /* SceneDelegate.swift in Sources */,
@@ -342,6 +363,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,6 +424,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -420,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,15 +457,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
 				INFOPLIST_FILE = "Golf Gambling/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-Gambling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Golf Gambling/Golf Gambling-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +481,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZX2YK3BUZ9;
 				INFOPLIST_FILE = "Golf Gambling/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Drew-Seidel.Golf-Gambling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Golf Gambling/Golf Gambling-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
